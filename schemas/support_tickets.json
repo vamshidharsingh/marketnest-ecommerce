@@ -1,0 +1,30 @@
+{
+  "name": "support_tickets",
+  "description": "Customer service issue queue.",
+  "fields": {
+    "customer_id": {
+      "type": "string",
+      "ref": "customers"
+    },
+    "subject": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "open",
+        "closed"
+      ]
+    },
+    "priority": {
+      "type": "string",
+      "enum": [
+        "low",
+        "normal",
+        "high"
+      ]
+    }
+  },
+  "writable": true,
+  "unique": []
+}
