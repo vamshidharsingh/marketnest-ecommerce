@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "marketnest-ecommerce"
+version = "1.0.0"
+description = "MarketNest local ecommerce portfolio workspace"
+requires-python = ">=3.12"
+dependencies = []
+readme = "README.md"
+license = {file = "LICENSE"}
+
+[tool.setuptools]
+packages = ["app"]
+
+# Run from the source checkout: schemas, fixtures and web are repository assets.
+# This metadata describes the project; a standalone wheel is not a distribution target.
