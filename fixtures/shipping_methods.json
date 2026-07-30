@@ -1,0 +1,8 @@
+[
+  {
+    "id": "shipping-1",
+    "name": "Demo standard",
+    "price_cents": 500,
+    "estimated_days": 5
+  }
+]
