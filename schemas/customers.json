@@ -1,0 +1,17 @@
+{
+  "name": "customers",
+  "description": "Synthetic buyer profiles.",
+  "fields": {
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string",
+      "format": "email"
+    }
+  },
+  "writable": true,
+  "unique": [
+    "email"
+  ]
+}
