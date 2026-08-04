@@ -1,0 +1,9 @@
+[
+  {
+    "id": "campaign-1",
+    "name": "Demo workspace launch",
+    "starts_on": "2026-10-01",
+    "ends_on": "2026-10-31",
+    "status": "active"
+  }
+]
