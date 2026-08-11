@@ -1,0 +1,19 @@
+{
+  "name": "shipping_methods",
+  "description": "Manual delivery rate catalog; checkout excludes shipping in this version.",
+  "fields": {
+    "name": {
+      "type": "string"
+    },
+    "price_cents": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "estimated_days": {
+      "type": "integer",
+      "minimum": 0
+    }
+  },
+  "writable": true,
+  "unique": []
+}
