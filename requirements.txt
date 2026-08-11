@@ -1,0 +1,2 @@
+# Runtime and tests use only Python's standard library.
+# No pip install is necessary for the documented source-checkout commands.
