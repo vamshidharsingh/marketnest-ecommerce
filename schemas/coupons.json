@@ -1,0 +1,33 @@
+{
+  "name": "coupons",
+  "description": "Percentage discounts with integer arithmetic and explicit use limits.",
+  "fields": {
+    "code": {
+      "type": "string"
+    },
+    "percent": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "max_uses": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "used": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "active",
+        "inactive"
+      ]
+    }
+  },
+  "writable": false,
+  "unique": [
+    "code"
+  ]
+}
