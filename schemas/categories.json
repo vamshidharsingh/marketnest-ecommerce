@@ -1,0 +1,16 @@
+{
+  "name": "categories",
+  "description": "Store product taxonomy.",
+  "fields": {
+    "name": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string"
+    }
+  },
+  "writable": true,
+  "unique": [
+    "slug"
+  ]
+}
