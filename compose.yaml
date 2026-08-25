@@ -1,0 +1,13 @@
+services:
+  workspace:
+    build: .
+    ports:
+      - "127.0.0.1:8014:8014"
+    environment:
+      APP_TOKEN: "${APP_TOKEN:?Set APP_TOKEN to a custom local token}"
+      APP_HOST: "0.0.0.0"
+    volumes:
+      - workspace-data:/workspace/runtime
+    restart: unless-stopped
+volumes:
+  workspace-data:
