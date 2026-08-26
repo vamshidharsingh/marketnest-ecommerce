@@ -1,0 +1,25 @@
+{
+  "name": "fulfillments",
+  "description": "Human-managed order fulfillment records.",
+  "fields": {
+    "reference": {
+      "type": "string"
+    },
+    "carrier": {
+      "type": "string"
+    },
+    "tracking_number": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "pending",
+        "shipped",
+        "delivered"
+      ]
+    }
+  },
+  "writable": true,
+  "unique": []
+}
