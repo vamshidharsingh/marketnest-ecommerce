@@ -1,0 +1,19 @@
+{
+  "name": "carts",
+  "description": "Active customer shopping baskets.",
+  "fields": {
+    "customer_id": {
+      "type": "string",
+      "ref": "customers"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "active",
+        "checked_out"
+      ]
+    }
+  },
+  "writable": false,
+  "unique": []
+}
