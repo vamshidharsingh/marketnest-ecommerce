@@ -1,0 +1,21 @@
+{
+  "name": "refunds",
+  "description": "Full-order refunds with stock restoration, applied once.",
+  "fields": {
+    "order_id": {
+      "type": "string",
+      "ref": "orders"
+    },
+    "amount_cents": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "reason": {
+      "type": "string"
+    }
+  },
+  "writable": false,
+  "unique": [
+    "order_id"
+  ]
+}
