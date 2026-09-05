@@ -1,0 +1,27 @@
+{
+  "name": "campaigns",
+  "description": "Manual merchandising campaign plans.",
+  "fields": {
+    "name": {
+      "type": "string"
+    },
+    "starts_on": {
+      "type": "string",
+      "format": "date"
+    },
+    "ends_on": {
+      "type": "string",
+      "format": "date"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "draft",
+        "active",
+        "complete"
+      ]
+    }
+  },
+  "writable": true,
+  "unique": []
+}
