@@ -1,0 +1,25 @@
+{
+  "name": "cart_items",
+  "description": "Workflow-managed basket lines with aggregated quantities.",
+  "fields": {
+    "cart_id": {
+      "type": "string",
+      "ref": "carts"
+    },
+    "product_id": {
+      "type": "string",
+      "ref": "products"
+    },
+    "quantity": {
+      "type": "integer",
+      "minimum": 0
+    }
+  },
+  "writable": false,
+  "unique": [
+    [
+      "cart_id",
+      "product_id"
+    ]
+  ]
+}
