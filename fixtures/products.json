@@ -1,0 +1,22 @@
+[
+  {
+    "id": "product-1",
+    "sku": "DESK-01",
+    "name": "Minimal desk lamp",
+    "category_id": "category-1",
+    "brand_id": "brand-1",
+    "price_cents": 4900,
+    "stock": 20,
+    "status": "active"
+  },
+  {
+    "id": "product-2",
+    "sku": "DESK-02",
+    "name": "Canvas desk mat",
+    "category_id": "category-1",
+    "brand_id": "brand-1",
+    "price_cents": 2900,
+    "stock": 15,
+    "status": "active"
+  }
+]
