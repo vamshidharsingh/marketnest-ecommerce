@@ -1,0 +1,9 @@
+[
+  {
+    "id": "fulfillment-1",
+    "reference": "SAMPLE-ONLY",
+    "carrier": "Demo logistics",
+    "tracking_number": "DEMO-TRACK",
+    "status": "pending"
+  }
+]
