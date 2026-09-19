@@ -1,0 +1,808 @@
+{
+  "project": "marketnest-ecommerce",
+  "profile": "https://github.com/vamshidharsingh",
+  "source_file_count": 160,
+  "definition": "Regular delivered files, including config and documentation; excludes runtime output, Git metadata and Python caches.",
+  "files": [
+    {
+      "path": ".env.example",
+      "sha256": "f68fa2fd3cc565a9264fbc98c5282831743608cb5b9346164aad7d6276940a68",
+      "bytes": 223
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.md",
+      "sha256": "6fd79c5ee358f6dded094c3ad3f58b69fb666b8fcae6bd2e8c960faa905cd1c2",
+      "bytes": 510
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/feature_request.md",
+      "sha256": "6081a595acd104efb62e384d62d17746a681df09c20882f7ab78438859e7c142",
+      "bytes": 492
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha256": "53cc45d29b49b735bde9a54c58abf940528bcb946e3b71c77244256e27125d59",
+      "bytes": 696
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "af62e7396b338d97e56f13a6ebeb47d663a103bf098704154af4013c2c2cdcdd",
+      "bytes": 94
+    },
+    {
+      "path": "Dockerfile",
+      "sha256": "6297948a4ca66e504745043ea2f194045c522b2f47fa3cf37051d43bc1ddf0d7",
+      "bytes": 272
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "72380798af61d6131287b0dd3c8dc5345535df641002fece3a02d7ef109c5f8e",
+      "bytes": 1069
+    },
+    {
+      "path": "Makefile",
+      "sha256": "cedba7854e3cb3a3c50f9adcf0f88c72e55c854ed7fe816a448e1abc2212b091",
+      "bytes": 216
+    },
+    {
+      "path": "PROJECT_MANIFEST.json",
+      "sha256": null,
+      "bytes": null
+    },
+    {
+      "path": "README.md",
+      "sha256": "e185160634b885a7188172e7f17bbb5b4048b1f992aa6559846f9418c320eb57",
+      "bytes": 5276
+    },
+    {
+      "path": "app/__init__.py",
+      "sha256": "0cabe8d86279ccfa01372a0b910a6e0189120cad82b1dc8a8ec5c15a4ee0e677",
+      "bytes": 85
+    },
+    {
+      "path": "app/__main__.py",
+      "sha256": "88ca6934d6cb33e1959d687032aa6a42813b1b5c7d60ef5825a7a4982bc86a04",
+      "bytes": 1213
+    },
+    {
+      "path": "app/audit.py",
+      "sha256": "5b34674b3b1ed0d724de37ee07ce5f5714c237acb0e1ff4deb1cfa4d10130a46",
+      "bytes": 421
+    },
+    {
+      "path": "app/auth.py",
+      "sha256": "3f82f89772c1fe1b9195e46f5bc6527a6a172bd1949529d0227a40e844b79843",
+      "bytes": 265
+    },
+    {
+      "path": "app/config.py",
+      "sha256": "78ce2658c7baeb176609e63add0f58f474fff9fe99e39648302b7285e70b6baf",
+      "bytes": 278
+    },
+    {
+      "path": "app/db.py",
+      "sha256": "baed415bf575c2d8eae3b5b1edac4d645206fb9d78d0de9f4a3d52c7193a6d44",
+      "bytes": 1433
+    },
+    {
+      "path": "app/errors.py",
+      "sha256": "1a9275eaa721e25e151d9ed8cbae514ecbcb25a48666f6868e59c259b0b818e6",
+      "bytes": 225
+    },
+    {
+      "path": "app/export.py",
+      "sha256": "854deb8dcd12bd052cdca7dc1aa8f9a43ffc9c001cf1bab25a5beb9b106886fb",
+      "bytes": 664
+    },
+    {
+      "path": "app/http.py",
+      "sha256": "f61a58e6a2ea33c17825c5d37a0a16e81246a56b0c22b6eb53806a30bbb4beaf",
+      "bytes": 6094
+    },
+    {
+      "path": "app/pagination.py",
+      "sha256": "598a487960a2716e5dbf039457176ad142fb58a4f237d3ea05bd264a07cdef7b",
+      "bytes": 367
+    },
+    {
+      "path": "app/project.py",
+      "sha256": "10889c3d537c6f67a3ff11e11003e7d05f13929db75c18fbc18e51da791dcae5",
+      "bytes": 1670
+    },
+    {
+      "path": "app/registry.py",
+      "sha256": "c7dab83e4f7fb5761081d85fec0c651f0179a53b131aaae7a0e7cee9bda7f6bb",
+      "bytes": 207
+    },
+    {
+      "path": "app/reports.py",
+      "sha256": "fabe6a8859e3adf5d23afbc52939a28c8111123eb2a686f9b2eefcf834039091",
+      "bytes": 763
+    },
+    {
+      "path": "app/repositories/addresses.py",
+      "sha256": "f8d1f12fde9212c53f68a157e31e46be9d2b784400d1a26e3c9710a20d35e15a",
+      "bytes": 461
+    },
+    {
+      "path": "app/repositories/brands.py",
+      "sha256": "a58eb356db6d66188ea0a3c2594b9c5b6423b788720d9e328cab2103ae467427",
+      "bytes": 431
+    },
+    {
+      "path": "app/repositories/campaigns.py",
+      "sha256": "777beaba08f3f1c405507204bb57a7af94a2999546bc63d5743822d8c7361d19",
+      "bytes": 454
+    },
+    {
+      "path": "app/repositories/cart_items.py",
+      "sha256": "ac3ca7e5be23b60a3d2fe6b847a13168477b540cc29724880fd4f3f319ae8dbb",
+      "bytes": 482
+    },
+    {
+      "path": "app/repositories/carts.py",
+      "sha256": "1c2b22960e151c4e6b33a2e281838064e707dc9c3d091d19318fe6ba2cdcf222",
+      "bytes": 461
+    },
+    {
+      "path": "app/repositories/categories.py",
+      "sha256": "c08ecef7a6ca700647ae036ba24c4487548693e2a32d72c1b369631869bfd9f8",
+      "bytes": 442
+    },
+    {
+      "path": "app/repositories/coupons.py",
+      "sha256": "51a9eedbce9048a60fcc6fba79f53169b8f505a430ac46707222a2fdf79f0ff5",
+      "bytes": 485
+    },
+    {
+      "path": "app/repositories/customers.py",
+      "sha256": "743140c2c49a71e6db6769b7ab0fe5d60985cec708506c48d17e48e3380def8d",
+      "bytes": 443
+    },
+    {
+      "path": "app/repositories/fulfillments.py",
+      "sha256": "9ccefee013254e852026ca30c41d2214f25bbf147ed38d5ef72c057843f36c13",
+      "bytes": 471
+    },
+    {
+      "path": "app/repositories/order_items.py",
+      "sha256": "c473d2b618173c3026b274cd076ae00acb97283678e41ad2e22011a33dfefc4b",
+      "bytes": 466
+    },
+    {
+      "path": "app/repositories/orders.py",
+      "sha256": "cf30474f4cf328db589c11070fb16cd261e97c8b2f7a21f596124b5238089de3",
+      "bytes": 492
+    },
+    {
+      "path": "app/repositories/payments.py",
+      "sha256": "a1ebed960a118ead125f80901b7f2c7bda494c536fd16c8529cf4d473696b8f0",
+      "bytes": 486
+    },
+    {
+      "path": "app/repositories/products.py",
+      "sha256": "8fd0c4cad80feabb7c239f1909faf86763c96bcf6d9f12dad0cf34f0fd9750ee",
+      "bytes": 470
+    },
+    {
+      "path": "app/repositories/refunds.py",
+      "sha256": "b0a80a5d15d097f4be32abe2e988cdfeb9f2df9c39a17989b173398f659801f0",
+      "bytes": 480
+    },
+    {
+      "path": "app/repositories/reviews.py",
+      "sha256": "be3eb63887f4e05c275a18d2a69c55efcb85c0b90036c52b601fd1efdb9e3ebb",
+      "bytes": 467
+    },
+    {
+      "path": "app/repositories/shipping_methods.py",
+      "sha256": "35de3b666e704e63453b789122c0524daf66a47bfbf270ef701218b05996d64c",
+      "bytes": 498
+    },
+    {
+      "path": "app/repositories/support_tickets.py",
+      "sha256": "479b8a00890df3357070993b07aa7e85e634918197366e0668a29eb6f3685f91",
+      "bytes": 467
+    },
+    {
+      "path": "app/repositories/tax_rules.py",
+      "sha256": "811e15337aa169490dabf713d08635cd8ba2d2589a25c758a8c042c79a4a7214",
+      "bytes": 497
+    },
+    {
+      "path": "app/repositories/variants.py",
+      "sha256": "b40b3c8d6eb021aca48fb17d33d3be52fe1d58c9b1fb1ef86b20e86bfedd90f1",
+      "bytes": 490
+    },
+    {
+      "path": "app/repositories/wishlists.py",
+      "sha256": "e8e3790326a2ed01b6be8432ff8e9e966da622b663195067719b3bffc47a40e5",
+      "bytes": 458
+    },
+    {
+      "path": "app/repository.py",
+      "sha256": "993e8c568465097c4bdc30fdaf1e9b348000fc30253a3e3324c83fedb2916dfa",
+      "bytes": 4124
+    },
+    {
+      "path": "app/schema.py",
+      "sha256": "7a86885d94a8341fa5601392135ffefd53fec6e26fda3be130ae18211aa790ad",
+      "bytes": 381
+    },
+    {
+      "path": "app/seed.py",
+      "sha256": "8711f7072af1cc97e88ea2cc9b9b85bf83d8aafcf6e892a876e843158b2d4870",
+      "bytes": 492
+    },
+    {
+      "path": "app/static.py",
+      "sha256": "20d55f39ff73a93434928579ab4002c417acfc3032a38e971ba31c38cbfb24c2",
+      "bytes": 574
+    },
+    {
+      "path": "app/validate.py",
+      "sha256": "4e3fdb921b4aed2a2f2763f1ea22698e744196f25f8c9128a66759a484b92ece",
+      "bytes": 2247
+    },
+    {
+      "path": "app/workflows.py",
+      "sha256": "c7f9a5cb72d0c79966f951f96c2ec9bacd58235b747c2338c0fa89d4f28e645e",
+      "bytes": 7180
+    },
+    {
+      "path": "compose.yaml",
+      "sha256": "ae50a3358d0c6af46917c65e48c68b3c1e0ad2e036d432c7ec303284925ee11c",
+      "bytes": 301
+    },
+    {
+      "path": "docs/api.md",
+      "sha256": "23482622d63989a7ec904545a81ac310cc502ba1116e65aeb04a3606b6ded289",
+      "bytes": 3259
+    },
+    {
+      "path": "docs/architecture.md",
+      "sha256": "cbfe06b8fa1e31e4da38ab2fa01aac5e2c4080bcd565d673958b0944907f39a9",
+      "bytes": 3022
+    },
+    {
+      "path": "docs/resources/addresses.md",
+      "sha256": "677b9cbb075369890ef063dd89a088646be2d8c988ad64973fd925f59c52338b",
+      "bytes": 933
+    },
+    {
+      "path": "docs/resources/brands.md",
+      "sha256": "348fe17c178578808bad6979dbac54eaf4011e4587d7b41e24755204d4fe797e",
+      "bytes": 789
+    },
+    {
+      "path": "docs/resources/campaigns.md",
+      "sha256": "0cd3e9a7da1a0fbda3955e17ddb6cbed8e4018c58abf9855b3c69c869a957a18",
+      "bytes": 887
+    },
+    {
+      "path": "docs/resources/cart_items.md",
+      "sha256": "81b575666909f4d8948a249542fe9f2e725530f3b105c3d7ab2d075b63ae6bc6",
+      "bytes": 901
+    },
+    {
+      "path": "docs/resources/carts.md",
+      "sha256": "45dab6be59299421338d894ff280f86a987bf82a840663e17700b831d67fd606",
+      "bytes": 800
+    },
+    {
+      "path": "docs/resources/categories.md",
+      "sha256": "6206959d7c36587d0469ff203b9f1dbc0de1a60b07b20df5ef83329aebbd2ee1",
+      "bytes": 805
+    },
+    {
+      "path": "docs/resources/coupons.md",
+      "sha256": "daec7b321823b5790a81d2f5f089a1ac30fcb8e5bf3128deecfbb544cc579403",
+      "bytes": 920
+    },
+    {
+      "path": "docs/resources/customers.md",
+      "sha256": "01dd85dadb67631f59e06388eebe082d8e5d7e77663c5d113519d49e373263b3",
+      "bytes": 802
+    },
+    {
+      "path": "docs/resources/fulfillments.md",
+      "sha256": "c232deaad376f4fe160950d2e6cc7053ba704dad3b76430a047d1b9a57aee143",
+      "bytes": 931
+    },
+    {
+      "path": "docs/resources/order_items.md",
+      "sha256": "d79c62db5f8c7da646fe167f23cc080330d63cf77437004220e9dab0f278b668",
+      "bytes": 908
+    },
+    {
+      "path": "docs/resources/orders.md",
+      "sha256": "90c6609755f18e4ebc24a1a374136d2d210febb5bfe471dc28f0763bbbbc7b7b",
+      "bytes": 1046
+    },
+    {
+      "path": "docs/resources/payments.md",
+      "sha256": "552e9fcc797b19e5e94620877197c0213f382e8d26ea1984985a83c4eeb53d85",
+      "bytes": 912
+    },
+    {
+      "path": "docs/resources/products.md",
+      "sha256": "e0997a51600bf97a9069cc21e2bea6983a7f6fd0de01a6bd91cddb18f4ac3aeb",
+      "bytes": 1031
+    },
+    {
+      "path": "docs/resources/refunds.md",
+      "sha256": "b61f965e099d64183efdc5e60bf4fd6a1d1b5ba889e030bae2026ccdba88a95c",
+      "bytes": 861
+    },
+    {
+      "path": "docs/resources/reviews.md",
+      "sha256": "66db577653b6241f4c2d33c71348dbb66de7b0a2fb21cc991f121a6a8a25b2ae",
+      "bytes": 964
+    },
+    {
+      "path": "docs/resources/shipping_methods.md",
+      "sha256": "6191f86e8f3c305f87675090d643d41d35eecef1bc3bb2e9be1b6678933f6bd5",
+      "bytes": 923
+    },
+    {
+      "path": "docs/resources/support_tickets.md",
+      "sha256": "b8d416bb6c7013f55a1c97460293c364a2c93d8300cc70841b81e2bd8912cd88",
+      "bytes": 939
+    },
+    {
+      "path": "docs/resources/tax_rules.md",
+      "sha256": "8bdc57d55fcf2bfa09c52730002450d6b01bbc00c4250cd871012de395d97be1",
+      "bytes": 865
+    },
+    {
+      "path": "docs/resources/variants.md",
+      "sha256": "9b0e8630f2202e821eb0b4660a98357d4dd4c0be1f8177b0582e5bcc62646329",
+      "bytes": 888
+    },
+    {
+      "path": "docs/resources/wishlists.md",
+      "sha256": "b5a7a6d4d75b3bae2ae28fa63ac9a0bb79e4623b6afc009448f149c0196baf55",
+      "bytes": 878
+    },
+    {
+      "path": "docs/security.md",
+      "sha256": "667fa49b668cf84f452de43d3b7b444ae6a0e6581a0bc5d798209ef1e438a4fc",
+      "bytes": 2985
+    },
+    {
+      "path": "docs/setup.md",
+      "sha256": "c1e7082e1b9822f5fbb56fb1f69d3273bbad3b768bbd14a260b37140bbccba47",
+      "bytes": 2429
+    },
+    {
+      "path": "fixtures/addresses.json",
+      "sha256": "b76a400ef1e2c9d9ec4bc18139918a17e34194064972810e82e40d5107a4686d",
+      "bytes": 181
+    },
+    {
+      "path": "fixtures/brands.json",
+      "sha256": "690e3115730376b6910c3ae6ad3bb199f674523f447433baf4d253f11550cd3d",
+      "bytes": 104
+    },
+    {
+      "path": "fixtures/campaigns.json",
+      "sha256": "53c0e36898ab39b65503a8f5349540e0b35f4523cd498882258b466ab01f4aaf",
+      "bytes": 156
+    },
+    {
+      "path": "fixtures/cart_items.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "bytes": 3
+    },
+    {
+      "path": "fixtures/carts.json",
+      "sha256": "900dccd3b1c94caff8448f858549ff8fe133ed6b82051f6b3f52a15dc8773c76",
+      "bytes": 88
+    },
+    {
+      "path": "fixtures/categories.json",
+      "sha256": "083258895f51205ec8cb4afab0d0a21a23912548b361a1238238e5c193267adf",
+      "bytes": 85
+    },
+    {
+      "path": "fixtures/coupons.json",
+      "sha256": "4cecb3aae0e39db831c9a855f78df988a5c1d01141237e8492aeaba9b21316b9",
+      "bytes": 133
+    },
+    {
+      "path": "fixtures/customers.json",
+      "sha256": "fe599c2010ff8dc3a1f35be2b80af2846d9f48741d3baafe1345b58f8fa30662",
+      "bytes": 96
+    },
+    {
+      "path": "fixtures/fulfillments.json",
+      "sha256": "a4323ac47f1e4a54b166fa618efe26c596f399f0afd053d2e10780fd6150ef33",
+      "bytes": 165
+    },
+    {
+      "path": "fixtures/order_items.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "bytes": 3
+    },
+    {
+      "path": "fixtures/orders.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "bytes": 3
+    },
+    {
+      "path": "fixtures/payments.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "bytes": 3
+    },
+    {
+      "path": "fixtures/products.json",
+      "sha256": "7eff89f4755ba5a51216795cda7247d1e52791db36b42a545bfeb637ea719193",
+      "bytes": 425
+    },
+    {
+      "path": "fixtures/refunds.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "bytes": 3
+    },
+    {
+      "path": "fixtures/reviews.json",
+      "sha256": "47f9c39a9877f5664e48d91e60317f889cdb30e3875a46a552e68098bbe1a3a8",
+      "bytes": 185
+    },
+    {
+      "path": "fixtures/shipping_methods.json",
+      "sha256": "2453a70781d44fa542fe2ae585c088bdf25b2388e7c6af3a3b84421c3748f0f3",
+      "bytes": 113
+    },
+    {
+      "path": "fixtures/support_tickets.json",
+      "sha256": "54fa6ef048dccbf8c22760488422ddbf37e7c0e761db08b24b02a7da0b5008c7",
+      "bytes": 160
+    },
+    {
+      "path": "fixtures/tax_rules.json",
+      "sha256": "b73f0780d90f78bda4abfe8b1d428fedd32dc0d839082187b2132f9485b906f1",
+      "bytes": 89
+    },
+    {
+      "path": "fixtures/variants.json",
+      "sha256": "0b82e55363c556d30a80fd4245331b968fbddff1b074f946b95b581881cdb660",
+      "bytes": 112
+    },
+    {
+      "path": "fixtures/wishlists.json",
+      "sha256": "482aa3c9044ab79705fb401c37ab8fb0853215f1f0836054c48de77fb5dfa1d0",
+      "bytes": 99
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "8d3635107b42f7068a7af7943f4a3414ef90f8343b8c32628a35ac3a6e46aae0",
+      "bytes": 510
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "2d0ac93d749230f910dbf12ec7495987ed6f051908e8a899c37514dd1f7bfa2e",
+      "bytes": 131
+    },
+    {
+      "path": "schemas/addresses.json",
+      "sha256": "457e49ee6dc737bb7fb4a778f87670a3c6ab62a5abe37d63baabf38136c66e5b",
+      "bytes": 392
+    },
+    {
+      "path": "schemas/brands.json",
+      "sha256": "a9ea903782cd130ab1f13fce55bca67c77e32352af7946c9b91220b95e135942",
+      "bytes": 223
+    },
+    {
+      "path": "schemas/campaigns.json",
+      "sha256": "88f738a1297b37b159c06502785007391703ddc3351763d5f7f2404ade0cda09",
+      "bytes": 450
+    },
+    {
+      "path": "schemas/cart_items.json",
+      "sha256": "d276f1ee90cd23e7339cc645de3ec2a87e3e4eea285eb0b37ed17247c1a2e41b",
+      "bytes": 424
+    },
+    {
+      "path": "schemas/carts.json",
+      "sha256": "8a6aaed6f15121f979d720f630f27e20f3937556443ebad9c31a5cf96977fa41",
+      "bytes": 319
+    },
+    {
+      "path": "schemas/categories.json",
+      "sha256": "82bf57d1dc502dfe2f8734d1809c01ad047f247141d08df1849cbfb05ddc154a",
+      "bytes": 227
+    },
+    {
+      "path": "schemas/coupons.json",
+      "sha256": "b08d79b6089f781c92fd0d43e6938be217df4e37f2b14ce97a0502dcc4aeb11b",
+      "bytes": 559
+    },
+    {
+      "path": "schemas/customers.json",
+      "sha256": "feecd49db4239723401629f34f51700a0413cf4fe15e9679d0ff7bdcee4ef3a6",
+      "bytes": 255
+    },
+    {
+      "path": "schemas/fulfillments.json",
+      "sha256": "2bfaa599c2f04dec1ecbe46b35ac7ec09dd11f575757b2cb410e6002eb1b7cb8",
+      "bytes": 424
+    },
+    {
+      "path": "schemas/order_items.json",
+      "sha256": "a64060041424aebf62c52f8c67602a0fb990605b8450aa54bcf37f539240252a",
+      "bytes": 434
+    },
+    {
+      "path": "schemas/orders.json",
+      "sha256": "4bfecf0a50b8a6826bbdf15783b3e9c19571f70127bcddc017bb76df1fe2b08b",
+      "bytes": 709
+    },
+    {
+      "path": "schemas/payments.json",
+      "sha256": "ba0f2d4e781e665772719ea8e377d6a03fa1fc98e6a99c60424a15ef8b25f28b",
+      "bytes": 523
+    },
+    {
+      "path": "schemas/products.json",
+      "sha256": "cf82fb4184173ff26c3af299136f44a14d5b0cfdd958494603e6cc4c7fe638c2",
+      "bytes": 631
+    },
+    {
+      "path": "schemas/refunds.json",
+      "sha256": "14379f1061dab0bff1cda0ff402718f6f3da020395af7079e83cdf7864cf3ef9",
+      "bytes": 364
+    },
+    {
+      "path": "schemas/reviews.json",
+      "sha256": "8fe2e13350f72d6a41f90f1b807a460cf25df3a7c3e95d30bbd5fb54262355f1",
+      "bytes": 534
+    },
+    {
+      "path": "schemas/shipping_methods.json",
+      "sha256": "174f610b79aad8142a4639b26b3d01c53113ca486f784b9bc5c69102003767e9",
+      "bytes": 372
+    },
+    {
+      "path": "schemas/support_tickets.json",
+      "sha256": "6269c9752c899f7f670f75542c4ae11cd95bee05b0e5217ff085f9dcc0020eb2",
+      "bytes": 485
+    },
+    {
+      "path": "schemas/tax_rules.json",
+      "sha256": "54b2f7ee265505965ce85ed9867bbfce1bd8770a9758764a06525cc9c07bbce9",
+      "bytes": 324
+    },
+    {
+      "path": "schemas/variants.json",
+      "sha256": "799939e3dc691220c3deaa30f31685fec82c43f13bcc0d30a8ecc200e375ca2e",
+      "bytes": 325
+    },
+    {
+      "path": "schemas/wishlists.json",
+      "sha256": "c6c1e4edd9d7a45aeec510bf2bb59648f56938828a38a158b14c188e6e77435e",
+      "bytes": 334
+    },
+    {
+      "path": "scripts/backup.py",
+      "sha256": "76bac0dfefb68ad2f414645c00e72e25ac6e69824b5f819016e41e443fa47c1b",
+      "bytes": 964
+    },
+    {
+      "path": "scripts/export_data.py",
+      "sha256": "9ff00e1402033943cb383af85a9662550cb82e7f5e2007bf6319baa20be4d61e",
+      "bytes": 656
+    },
+    {
+      "path": "scripts/init_db.py",
+      "sha256": "4c4cb2bf6d3ca5667f7878365ffb555369e619851f015c61174fdd5a004bd8b1",
+      "bytes": 413
+    },
+    {
+      "path": "scripts/smoke_test.py",
+      "sha256": "0408f54e5e6ac5363cb1981604391b42e8cd5048c5efbb8bb1eb13a1c5194afd",
+      "bytes": 1458
+    },
+    {
+      "path": "scripts/verify_files.py",
+      "sha256": "bca1e370e10daadc294df21cc12f06fb26896395788943ac8d7716010cae9fde",
+      "bytes": 1077
+    },
+    {
+      "path": "tests/__init__.py",
+      "sha256": "df7f1d44357fdef3f9fe616d538d6b00fa91f7a39d9b9f4a15de70cacf2a71d4",
+      "bytes": 65
+    },
+    {
+      "path": "tests/helpers.py",
+      "sha256": "1da5c4f6ca17b94979adf761cde5d851506692a5d91c6fdbc898dbb01cc080f3",
+      "bytes": 2425
+    },
+    {
+      "path": "tests/test_addresses.py",
+      "sha256": "e7b301618d80d24c4f12aaef33cc5d3f89ed577baa5b93892f845c7a79e20498",
+      "bytes": 1877
+    },
+    {
+      "path": "tests/test_auth.py",
+      "sha256": "11fceed0042008201513abf4f101dd57e0d3d2961623fd07a72a26132dec0198",
+      "bytes": 493
+    },
+    {
+      "path": "tests/test_brands.py",
+      "sha256": "8298f19762c0634bf86cb57d723a8b0fb56edf482d4d76a959f92f4a0c6cf5fc",
+      "bytes": 1829
+    },
+    {
+      "path": "tests/test_campaigns.py",
+      "sha256": "c69b9951c45d00414fffdc407e253e50e5bb212c277c9da42c0bc622b363bb32",
+      "bytes": 1835
+    },
+    {
+      "path": "tests/test_cart_items.py",
+      "sha256": "1ffd4ea7269a265c4b984330df33f4a4d0a48ee4594df61d2d113f3e93de1684",
+      "bytes": 1855
+    },
+    {
+      "path": "tests/test_carts.py",
+      "sha256": "5cee8c66e5d6474e927187873913ba86eea0fdf18403b9897336505c5ccd0b72",
+      "bytes": 1869
+    },
+    {
+      "path": "tests/test_categories.py",
+      "sha256": "64e098683346fc29d59c9e5d92f63bb4f73002c0c9e8c5afacd108bdd96b0508",
+      "bytes": 1837
+    },
+    {
+      "path": "tests/test_concurrency.py",
+      "sha256": "e52f5c21e9caccb7d48bf8076a6e12b4fbdc7cd1891fbd2df6e3703ca4d55de1",
+      "bytes": 1651
+    },
+    {
+      "path": "tests/test_coupons.py",
+      "sha256": "bea2629095f144235ceccfc218016cd0dda89812359f76ea5185a5a282460362",
+      "bytes": 1831
+    },
+    {
+      "path": "tests/test_customers.py",
+      "sha256": "247de0a631f90c1d4fe8a5b7c13efb29409913637628def330eb1274508acc61",
+      "bytes": 1835
+    },
+    {
+      "path": "tests/test_export.py",
+      "sha256": "3e5bb343f234159d5460f71b01a07f072ee8205d98034f4ae9a8d8e34b2e65f9",
+      "bytes": 1314
+    },
+    {
+      "path": "tests/test_fulfillments.py",
+      "sha256": "4f7fc44591fcc0e2b70893af44a5e160a1fdcc3bfecfe02a91979bc030e2f215",
+      "bytes": 1871
+    },
+    {
+      "path": "tests/test_http.py",
+      "sha256": "6d13828238709f7807ccd9e0b5f02da28d507edb4dcf3089caa7ad21dcf62bb4",
+      "bytes": 3285
+    },
+    {
+      "path": "tests/test_order_items.py",
+      "sha256": "08cb3c9a578fc756189462d393fd38891852e009fdc0b8204527f987738aa8fe",
+      "bytes": 1863
+    },
+    {
+      "path": "tests/test_orders.py",
+      "sha256": "7c3c79419cf7d20b5cf4947b103380da474c99a4f3780a26c48fe4f570ac10df",
+      "bytes": 1871
+    },
+    {
+      "path": "tests/test_payments.py",
+      "sha256": "3580d3ebc986c74a8bb3a3d8d11dd54bcf5b205ec2bdfde8fad3b4d0ba021224",
+      "bytes": 1857
+    },
+    {
+      "path": "tests/test_products.py",
+      "sha256": "d2951d0cf19d78942ef3e62de393a91120cf6a095143a32b953f17eea68ea149",
+      "bytes": 1843
+    },
+    {
+      "path": "tests/test_refunds.py",
+      "sha256": "f239c6d3bca1ed42c90983a87c9b7db8e800f4c9a2a30fe99c102481547767c9",
+      "bytes": 1855
+    },
+    {
+      "path": "tests/test_reports.py",
+      "sha256": "967cffb4946f89b2cb97acde68bd1d6be2b36d2d0bea34863afbf543489dc39b",
+      "bytes": 737
+    },
+    {
+      "path": "tests/test_repository.py",
+      "sha256": "8487501929bfd3faceca3f99fdebb6d5e86d2407dc62ce541fcd9db922ec9923",
+      "bytes": 2365
+    },
+    {
+      "path": "tests/test_reviews.py",
+      "sha256": "b6d4be213bc4822bc019487edb56ef164b6028121d27c2050345bf99f6e38cab",
+      "bytes": 1867
+    },
+    {
+      "path": "tests/test_shipping_methods.py",
+      "sha256": "7370e03727652fcb766be2f0c663c5630c9fdf195cf1783bfa365fa97f697739",
+      "bytes": 1849
+    },
+    {
+      "path": "tests/test_support_tickets.py",
+      "sha256": "c21a3f47ed7bcbf53c5079b23c85a00eda492c3d837fde51fad60f4cf6d6888a",
+      "bytes": 1889
+    },
+    {
+      "path": "tests/test_tax_rules.py",
+      "sha256": "07fd4db79199107cadcfcf5666a11b62cc743d90a9d1e290b9e46b2718b06372",
+      "bytes": 1847
+    },
+    {
+      "path": "tests/test_validation.py",
+      "sha256": "2fb9d4a2c7104c3926b76e7ac5d65dc9738db925be0bffed5ee06ddd396762a3",
+      "bytes": 1263
+    },
+    {
+      "path": "tests/test_variants.py",
+      "sha256": "8b9b75b76b701e74509848742729881180281b773696699c8fbc322d64f95c1b",
+      "bytes": 1869
+    },
+    {
+      "path": "tests/test_wishlists.py",
+      "sha256": "ef0fee76199852d43ea185745fa4859ae67e0d2875f937556b97f55f8bda8114",
+      "bytes": 1877
+    },
+    {
+      "path": "tests/test_workflows.py",
+      "sha256": "a75fa87338795c75cd3c300c3743885ab286b15ce82c6174db46ad714c3d125e",
+      "bytes": 4585
+    },
+    {
+      "path": "web/api.js",
+      "sha256": "07d72ade15a5c53cc4907b24253e176e41f74e57a4a9b84e66f6fb4897394334",
+      "bytes": 1175
+    },
+    {
+      "path": "web/app.js",
+      "sha256": "d34783a9eea4c67211c56e4ae96f860842ac05a40ed35fcf9a48fb8d01dd2ee6",
+      "bytes": 2639
+    },
+    {
+      "path": "web/dashboard.js",
+      "sha256": "481f8b08222b2b1ffea72dc7e3d117b4a1389000c4bb0a5b78455e9b6612cdb9",
+      "bytes": 2751
+    },
+    {
+      "path": "web/dom.js",
+      "sha256": "203095dd5bb05a4a2d1e8a3ee1fdf3c14f2a8a7e47278a8f2aa01ac38f79b137",
+      "bytes": 920
+    },
+    {
+      "path": "web/index.html",
+      "sha256": "4e2fe3989df51c1f0d64bc9d0e8667524103f44eeaa8ac478058045d5f5cf52a",
+      "bytes": 2235
+    },
+    {
+      "path": "web/resource.js",
+      "sha256": "984480de8e4b0429a500c7fdcf2e76acf8eeb00c2165807ed98243a2d0039b9b",
+      "bytes": 5685
+    },
+    {
+      "path": "web/style.css",
+      "sha256": "44ade518242a33b29da7cb1643e43f370d739003ed1d0b43323c299d23bfb126",
+      "bytes": 6776
+    },
+    {
+      "path": "web/theme.js",
+      "sha256": "33f24cb831170622293774560bf2a8638cc95528a86f31bef4a32a2ec8d82a21",
+      "bytes": 219
+    },
+    {
+      "path": "web/workflow.js",
+      "sha256": "f340965447acb5d1e4153efe03c188180721475bbda0dafcdeb6bae9a487bdf1",
+      "bytes": 1935
+    }
+  ]
+}
