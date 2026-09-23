@@ -1,0 +1,10 @@
+[
+  {
+    "id": "address-1",
+    "customer_id": "customer-1",
+    "label": "Demo home",
+    "line1": "100 Example Street",
+    "city": "Demo City",
+    "postal_code": "00000"
+  }
+]
