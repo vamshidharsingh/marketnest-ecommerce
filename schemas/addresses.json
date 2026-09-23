@@ -1,0 +1,24 @@
+{
+  "name": "addresses",
+  "description": "Synthetic shipping addresses.",
+  "fields": {
+    "customer_id": {
+      "type": "string",
+      "ref": "customers"
+    },
+    "label": {
+      "type": "string"
+    },
+    "line1": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
+    },
+    "postal_code": {
+      "type": "string"
+    }
+  },
+  "writable": true,
+  "unique": []
+}
