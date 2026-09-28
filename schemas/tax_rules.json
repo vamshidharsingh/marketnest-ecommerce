@@ -1,0 +1,16 @@
+{
+  "name": "tax_rules",
+  "description": "Reference tax rates in basis points; checkout excludes tax in this version.",
+  "fields": {
+    "region": {
+      "type": "string"
+    },
+    "rate_basis_points": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 10000
+    }
+  },
+  "writable": true,
+  "unique": []
+}
