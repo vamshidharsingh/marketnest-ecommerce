@@ -1,0 +1,10 @@
+[
+  {
+    "id": "coupon-1",
+    "code": "DEMO10",
+    "percent": 10,
+    "max_uses": 50,
+    "used": 0,
+    "status": "active"
+  }
+]
