@@ -1,0 +1,39 @@
+{
+  "name": "products",
+  "description": "Sellable items priced in integer cents.",
+  "fields": {
+    "sku": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "category_id": {
+      "type": "string",
+      "ref": "categories"
+    },
+    "brand_id": {
+      "type": "string",
+      "ref": "brands"
+    },
+    "price_cents": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "stock": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "active",
+        "draft"
+      ]
+    }
+  },
+  "writable": true,
+  "unique": [
+    "sku"
+  ]
+}
