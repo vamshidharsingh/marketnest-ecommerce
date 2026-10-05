@@ -1,0 +1,16 @@
+{
+  "name": "brands",
+  "description": "Brand directory.",
+  "fields": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  },
+  "writable": true,
+  "unique": [
+    "name"
+  ]
+}
