@@ -1,0 +1,21 @@
+{
+  "name": "wishlists",
+  "description": "Saved product preferences.",
+  "fields": {
+    "customer_id": {
+      "type": "string",
+      "ref": "customers"
+    },
+    "product_id": {
+      "type": "string",
+      "ref": "products"
+    }
+  },
+  "writable": true,
+  "unique": [
+    [
+      "customer_id",
+      "product_id"
+    ]
+  ]
+}
