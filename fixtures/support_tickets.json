@@ -1,0 +1,9 @@
+[
+  {
+    "id": "ticket-1",
+    "customer_id": "customer-1",
+    "subject": "Synthetic delivery question",
+    "status": "open",
+    "priority": "normal"
+  }
+]
