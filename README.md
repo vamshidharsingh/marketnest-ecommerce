@@ -2,7 +2,7 @@
 
 A storefront operation with stock-safe checkout.
 
-A runnable local portfolio project prepared for [@vamshidharsingh](https://github.com/vamshidharsingh). Python serves a framework-free REST API, SQLite stores validated domain records, and a responsive JavaScript interface exposes dashboards, resource management, business workflows and CSV exports.
+A runnable local portfolio project. Python serves a framework-free REST API, SQLite stores validated domain records, and a responsive JavaScript interface exposes dashboards, resource management, business workflows and CSV exports.
 
 ## What you can demonstrate
 
